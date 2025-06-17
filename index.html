@@ -3,6 +3,161 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>YuvTech Research Portal</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Space Grotesk', sans-serif;
+      margin: 0;
+      background: #0b0c10;
+      color: #f1f1f1;
+    }
+    header {
+      background: url('https://images.unsplash.com/photo-1581093448793-60d76c77874b?auto=format&fit=crop&w=1600&q=80') no-repeat center center/cover;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+      color: #fff;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #c2e9fb;
+    }
+    nav {
+      background: #1f2833;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav a {
+      color: #66fcf1;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #66fcf1;
+      border-bottom: 2px solid #66fcf1;
+      padding-bottom: 10px;
+    }
+    .form-container iframe {
+      width: 100%;
+      height: 700px;
+      border: none;
+      margin-top: 20px;
+    }
+    .about {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .about img {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+      border: 3px solid #66fcf1;
+    }
+    .about-text {
+      flex: 1;
+    }
+    .paper-entry {
+      background: #1f2833;
+      margin: 15px 0;
+      padding: 15px;
+      border-left: 5px solid #66fcf1;
+      border-radius: 5px;
+    }
+    footer {
+      background: #1f2833;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+    a.btn {
+      background: #66fcf1;
+      color: #0b0c10;
+      padding: 10px 15px;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>YuvTech Research Portal</h1>
+    <p>Share • Explore • Collaborate</p>
+  </header>
+
+  <nav>
+    <a href="#submit">Submit</a>
+    <a href="#papers">Submissions</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="submit">
+    <h2>📥 Submit Your Research</h2>
+    <p>Please fill out the form below to submit your research paper to our platform. Approved papers will be showcased here.</p>
+    <div class="form-container">
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdX-xYvgx0IjzBC3QVotSGOkFg4qfkUiFcUsiOrNsK1RtzFXA/viewform?embedded=true" loading="lazy">Loading…</iframe>
+    </div>
+  </section>
+
+  <section id="papers">
+    <h2>📚 Recent Submissions</h2>
+    <div class="paper-entry">
+      <h3>Advances in Quantum Robotics</h3>
+      <p><strong>by:</strong> Dr. R. Mehta</p>
+      <a class="btn" href="#" target="_blank">🔗 Read Paper</a>
+    </div>
+    <div class="paper-entry">
+      <h3>Maglev-Based Satellite Launch</h3>
+      <p><strong>by:</strong> Yuvraj Singh</p>
+      <a class="btn" href="#" target="_blank">🔗 Read Paper</a>
+    </div>
+    <!-- Future: This will be filled from Google Sheet -->
+  </section>
+
+  <section id="about">
+    <h2>👨‍🚀 About Me</h2>
+    <div class="about">
+      <img src="./yuvraj-photo.jpg" alt="Yuvraj Singh Photo">
+      <div class="about-text">
+        <p>I'm a 3rd-year Mechanical Engineering student passionate about space technology, robotics, and building innovative research platforms for future engineers.</p>
+        <a class="btn" href="https://www.linkedin.com/in/yuvraj-singh-32b286360" target="_blank">🔗 LinkedIn Profile</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>📬 Contact</h2>
+    <p>📧 Email: <a href="mailto:yuvrajsinghcpr08@gmail.com">yuvrajsinghcpr08@gmail.com</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 YuvTech Research | Built with 🚀 by Yuvraj Singh
+  </footer>
+
+</body>
+</html>!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>YuvTech Research</title>
   <style>
     body {
